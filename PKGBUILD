@@ -1,4 +1,8 @@
-# Maintainer: Danilo J. S. Bellini <danilo dot bellini at gmail dot com>
+# SPDX-License-Identifier: AGPL-3.0
+#
+# Maintainer:  Danilo J. S. Bellini <danilo dot bellini at gmail dot com>
+# Maintainer:  Pellegrino Prevete <cGVsbGVncmlub3ByZXZldGVAZ21haWwuY29tCg== | base -d>
+# Maintainer:  Truocolo <truocolo@aol.com>
 # Contributor: Marcell Meszaros < marcell.meszaros AT runbox.eu >
 # Contributor: Felix Yan <felixonmars@archlinux.org>
 # Contributor: Felix Kaiser <felix.kaiser@fxkr.net>
@@ -31,3 +35,5 @@ package() {
   mv "$pkgdir"/usr/bin/py.test{,2}
   mv "$pkgdir"/usr/bin/pytest{,2}
 }
+
+# vim:set sw=2 sts=-1 et:
